@@ -1,0 +1,74 @@
+let movies = `[
+    {
+        "name": "Buffalo 66",
+        "genre": "Drama",
+        "year": 1998,
+        "description": "Auteur perfection from Vincent Gallo. Starring Christina Ricci. an auspicious feature debut while showcasing a terrific performance from the guest star.",
+        "likes": 0,
+        "rottenTomatoes": 77
+    },
+    {
+        "name": "My Own Private Idaho",
+        "genre": "LGBTQ+/Drama",
+        "year": 1991,
+        "description": "A glimpse of a talented director and his stars all at the top of their respective games, Gus Van Sant's loose reworking of Henry IV is smart, sad and audacious.",
+        "likes": 0,
+        "rottenTomatoes": 79
+    },
+    {
+        "name": "Basquiat",
+        "genre": "Biography",
+        "year": 1996,
+        "description": "The brief life of Jean Michel Basquiat, a world renowned New York street artist struggling with fame, drugs, overblown respect for Warhol and his identity.",
+        "likes": 0,
+        "rottenTomatoes": 68
+    },
+    {
+        "name": "Stand By Me",
+        "genre": "Comedy/Drama",
+        "year": 1986,
+        "description": "Stand By Me is a wise, nostalgic movie with a weird streak that captures both Stephen King's voice and the trials of growing up. Starring River Phoenix.",
+        "likes": 0,
+        "rottenTomatoes": 91
+    },
+    {
+        "name": "The Sustainability Secret",
+        "genre": "Documentary",
+        "year": 2014,
+        "description": "Cowspiracy may be the most important film made to inspire saving the planet. This really should be compulsory viewing as part of an education system",
+        "likes": 0,
+        "rottenTomatoes": 88
+    },
+    {
+        "name": "The Usual Suspects",
+        "genre": "Crime/Mystery & Thriller",
+        "year": 1995,
+        "description": "Expertly shot and edited, The Usual Suspects gives the audience a simple plot and then piles on layers of, twists and violence before pulling out the rug.",
+        "likes": 0,
+        "rottenTomatoes": 88
+    },
+    {
+        "name": "White Men Cannot Jump",
+        "genre": "Comedy/Drama",
+        "year": 1998,
+        "description": "White Men Can't Jump provides a fresh take on the sports comedy genre, with a clever script and a charismatic trio of leads, Wesley Snipes and Woody Harelson.",
+        "likes": 0,
+        "rottenTomatoes": 77
+    },
+    {
+        "name": "Dogma",
+        "genre": "Comedy",
+        "year": 1999,
+        "description": "Provocative and audacious, Dogma is an uneven but thoughtful religious satire that's both respectful and irreverent. Featuring Jay and Silent Bob.",
+        "likes": 0,
+        "rottenTomatoes": 67
+    },
+    {
+        "name": "The Counsellor",
+        "genre": "Crime/No Mystery/No Thrills",
+        "year": 2013,
+        "description": "The Counselor raises expectations with its talented cast and creative crew then subverts them with a wordy and clumsy suspense thriller that's mercilessly short on suspense or thrills.",
+        "likes": 0,
+        "rottenTomatoes": 33
+    }
+]`

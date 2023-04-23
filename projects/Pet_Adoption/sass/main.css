@@ -1,0 +1,237 @@
+@font-face {
+  font-family: ubu-l;
+  src: url("../font-ubu/Ubuntu-L.ttf");
+}
+
+@font-face {
+  font-family: ubu-r;
+  src: url("../font-ubu/Ubuntu-R.ttf");
+}
+
+@font-face {
+  font-family: ubu-m;
+  src: url("../font-ubu/Ubuntu-M.ttf");
+}
+
+.home-container, .create-container, .update-container, .a_update-container {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(10, 40, 85, 0.5)), to(rgba(10, 40, 85, 0.85)));
+  background-image: linear-gradient(to right, rgba(10, 40, 85, 0.5), rgba(10, 40, 85, 0.85));
+}
+
+nav {
+  height: 90px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(10, 24, 85, 0.5)), to(rgba(68, 9, 36, 0.8))) !important;
+  background: linear-gradient(to top, rgba(10, 24, 85, 0.5), rgba(68, 9, 36, 0.8)) !important;
+  font-family: ubu-r;
+}
+
+.brand-wrapper {
+  border: solid 1px rgba(222, 212, 212, 0.2);
+  margin-right: 2.2em;
+  padding: 0.6em;
+}
+
+.brand-wrapper:hover {
+  background-color: rgba(49, 13, 16, 0.3);
+  -webkit-box-shadow: 2px 2px 5px rgba(222, 212, 212, 0.4), -2px -2px 4px rgba(212, 218, 222, 0.8);
+          box-shadow: 2px 2px 5px rgba(222, 212, 212, 0.4), -2px -2px 4px rgba(212, 218, 222, 0.8);
+}
+
+.brand-wrapper img {
+  -webkit-transition: all 2.8s ease-in-out;
+  transition: all 2.8s ease-in-out;
+}
+
+.brand-wrapper img:hover {
+  -webkit-box-shadow: 2px 2px 5px rgba(222, 212, 212, 0.4), -2px -2px 4px rgba(212, 218, 222, 0.8);
+          box-shadow: 2px 2px 5px rgba(222, 212, 212, 0.4), -2px -2px 4px rgba(212, 218, 222, 0.8);
+  border-radius: 25%;
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+}
+
+nav .nav-link {
+  color: #ebedff !important;
+  margin-right: 1em;
+}
+
+.nav-link:hover {
+  color: #30388d !important;
+}
+
+.active {
+  -webkit-box-shadow: 2px 2px 5px rgba(222, 212, 212, 0.4), -2px -2px 4px rgba(212, 218, 222, 0.8);
+          box-shadow: 2px 2px 5px rgba(222, 212, 212, 0.4), -2px -2px 4px rgba(212, 218, 222, 0.8);
+  border-radius: 4px 0px 4px 0px;
+  color: #ebedff;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-toggler {
+  background-color: #ebedff !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    width: 6rem;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(10, 24, 85, 0.5)), to(rgba(68, 9, 36, 0.8)));
+    background: linear-gradient(to top, rgba(10, 24, 85, 0.5), rgba(68, 9, 36, 0.8));
+    float: right;
+    text-align: center;
+  }
+  .navbar-nav .nav-link {
+    padding-right: 0.3em;
+  }
+  .active {
+    background: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.userImage {
+  width: 6rem;
+  height: 6rem;
+}
+
+.hero {
+  background: #020024;
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(200, 203, 218, 0.5)), to(rgba(200, 203, 218, 0.85)));
+  background-image: linear-gradient(to left, rgba(200, 203, 218, 0.5), rgba(200, 203, 218, 0.85));
+}
+
+.register-container {
+  font-family: ubu-m;
+  margin-top: 3em;
+  padding: 1.2em;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(10, 70, 85, 0.5)), to(rgba(18, 10, 85, 0.85)));
+  background-image: linear-gradient(to top, rgba(10, 70, 85, 0.5), rgba(18, 10, 85, 0.85));
+}
+
+.login-body {
+  font-family: ubu-l;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(10, 70, 85, 0.5)), to(rgba(18, 10, 85, 0.85)));
+  background-image: linear-gradient(to top, rgba(10, 70, 85, 0.5), rgba(18, 10, 85, 0.85));
+}
+
+.login-deets {
+  font-family: ubu-l;
+}
+
+.media-title {
+  font-family: ubu-r;
+  letter-spacing: 0.1em;
+  text-shadow: 2px 2px 5px #5a5e69;
+}
+
+.vanish {
+  display: none !important;
+}
+
+.appear {
+  display: block !important;
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+  opacity: 0.94;
+}
+
+.tableContainer {
+  margin: auto;
+  width: 90%;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  border: solid 1px #e1f4f7 !important;
+  font-family: ubu-r;
+  font-size: 0.9em;
+}
+
+tr {
+  text-align: center;
+}
+
+.colTitles th {
+  text-align: center;
+  font-family: ubu-m;
+  border-right: dashed 1px #fff;
+  vertical-align: middle;
+}
+
+.descRow, .addrRow {
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.noDataMsg {
+  background-image: -webkit-gradient(linear, right top, left top, from(#0a1855), to(#37a3b6));
+  background-image: linear-gradient(to left, #0a1855, #37a3b6);
+  letter-spacing: 0.2em;
+}
+
+#senTable {
+  display: none;
+}
+
+.show-container {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(200, 203, 218, 0.5)), to(rgba(200, 203, 218, 0.85)));
+  background-image: linear-gradient(to left, rgba(200, 203, 218, 0.5), rgba(200, 203, 218, 0.85));
+}
+
+.dispCard {
+  opacity: 0.92;
+}
+
+.cardImg {
+  vertical-align: middle;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-title {
+  font-family: ubu-m;
+}
+
+.card-text {
+  font-family: ubu-r;
+}
+
+.error-container, .addedPet {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(10, 24, 85, 0.5)), to(#310816));
+  background-image: linear-gradient(to right, rgba(10, 24, 85, 0.5), #310816);
+}
+
+.createTable {
+  font-family: ubu-l !important;
+}
+
+.createTitle {
+  font-family: ubu-r;
+}
+
+.delete-container {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(10, 24, 85, 0.5)), to(#310816));
+  background-image: linear-gradient(to left, rgba(10, 24, 85, 0.5), #310816);
+  font-family: ubu-r;
+}
+
+.deleteImg {
+  height: 6rem;
+  width: 6rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.deleted-container {
+  font-family: ubu-r;
+}
+/*# sourceMappingURL=main.css.map */

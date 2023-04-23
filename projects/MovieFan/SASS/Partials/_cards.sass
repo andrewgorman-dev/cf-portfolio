@@ -1,0 +1,81 @@
+.container
+    margin-top: 1em auto
+    padding: 1em 0 !important
+    box-shadow: 3px 3px 10px $shadow-md
+    border-radius: 10px
+
+.card
+    background-image: $grad-b
+    font-family: $font-l
+    height: 40em
+    box-shadow: 3px 3px 10px $shadow-dk, -2px -3px 4px $shadow-md
+    border-radius: 8px
+
+.card .img-container
+    display: block
+    height: 28em
+    width: 100%
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat // kind of better with repeat this time but both work
+
+.card .card-body
+    border: solid 2px #333
+    text-align: center
+
+.card-title
+    text-align: center
+    font-family: $font-m
+    line-height: 1em
+
+#card-desc
+    text-align: justify
+
+.text-muted
+    color: $text-light !important
+
+.likes
+    border: solid 2px #656
+    border-radius: 8px
+    padding: 1em
+    display: flex
+    justify-content: space-around
+    align-items: center
+
+.likesBtn
+    width: 3.6em
+    height: 3em
+    border-radius: 6px
+    background-color: $btn-bg
+    cursor: pointer
+
+.likesBtn:hover
+    background-color: $circle-bg
+
+.likesBtn:active
+    box-shadow: 1px 1px 3px $shadow-md, -2px -2px 3px $shadow-light
+
+.likes-counter
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.likes-count
+    height: 2.8em
+    width: 2.8em
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    background-color: $circle-bg
+    border: solid 1px #969
+    border-radius: 50%
+    color: $text-light
+    font-family: $font-m
+    font-size: 1.8em
+
+.likes-number
+    margin: auto
+
+.likes-likes
+    color: $text-light

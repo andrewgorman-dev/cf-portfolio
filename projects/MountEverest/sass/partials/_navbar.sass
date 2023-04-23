@@ -1,0 +1,65 @@
+nav
+    height: 90px
+    background: $grad-op-b-blu!important
+    font-family: $ubu-r
+
+.brand-wrapper
+    margin-right: 2.2em
+    padding: 0.6em
+
+.brand-wrapper:hover
+    background-color: rgba(49, 13, 16, 0.3)
+    box-shadow: $box-full-light
+
+.brand-wrapper img
+    transition: all 2.8s ease-in-out
+
+.brand-wrapper img:hover
+    box-shadow: $box-full-light
+    border-radius: 25%
+    transform: rotate(-360deg)
+
+.brand-img
+    height: 3.6rem
+    width: 3.6rem
+    object-fit: cover
+
+nav .nav-link
+    color: $text-l-blu!important
+    margin-right: 1em
+
+.nav-link:hover
+    color: $links-hover!important
+
+.active
+    box-shadow: $box-full-light
+    border-radius: 4px 0px 4px 0px
+    color: $text-l-blu
+
+.dropdown:hover .dropdown-menu
+    display: block
+
+.navbar-toggler
+    background-color: $text-l-blu!important
+
+#navbarNavDropdown
+    z-index: 1000!important
+
+@media (max-width: 991px)
+    .navbar-nav
+        width: 100%
+        margin-top: 0.35em
+        background: $grad-s-b-blu
+        text-align: center
+        box-shadow: $box-full-light
+
+    .ajax-nav-btn
+        margin-bottom: 0.6em
+
+    .nav-link:hover
+        box-shadow: $box-full-light!important
+
+    .active
+        background: none
+        border-radius: 0
+        box-shadow: none

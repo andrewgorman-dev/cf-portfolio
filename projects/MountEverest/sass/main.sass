@@ -1,0 +1,66 @@
+@import 'partials/fonts'
+@import 'partials/colors'
+@import 'partials/shadow'
+
+// Navbar
+@import 'partials/navbar'
+
+//HP- Cards
+@import 'partials/hp-cards'
+
+.index-container, .create-container, .error-container, .update-container, .show-details-container, .delete-container, .a_update-container, .a_delete-container, .ajax-container, footer
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    background-attachment: fixed
+
+.index-container
+    background-image: url('../img/hpbg.jpg')
+
+.create-container, .a_create-container
+    background-image: url('../img/crbg.jpg')
+
+.error-container, .update-container, .delete-container, .a_update-container, .a_delete-container, .ajax-container
+    font-family: $ubu-r
+    height: 100%
+
+.error-container
+    background-image: url('../img/erbg.jpg')
+
+.update-container, .a_update-container
+    background-image: url('../img/upbg.jpg')
+
+.delete-container, .a_delete-container
+    background-image: url('../img/dlbg.jpg')
+
+.a_create-container, .a_update-container, .a_delete-container, .map-title, .details-title, .travel-details
+    font-family: $ubu-r
+
+.ajax-container
+    background-image: url('../img/ajbg.jpg')
+
+.weather-card, .weatherBtn
+    font-family: $ubu-m
+    opacity: 0.8!important
+
+// create.php
+@import 'partials/create-table'
+
+// update.php delete.php
+@import 'partials/update'
+
+// show_details.php
+@import 'partials/show-card'
+
+// Footer
+@import 'partials/footer'
+
+@media (max-width: 991px)
+    .map
+        display: flex
+        flex-direction: column
+
+@media (max-width: 480px)
+    #map
+        height: 18rem
+        width: 15rem

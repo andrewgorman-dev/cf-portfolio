@@ -1,0 +1,101 @@
+.puzzle-surface-wrapper
+    position: absolute
+    top: 274px // nav + hp-banner
+    left: 0
+    margin: auto
+
+.outer-col-surf
+    height: 20rem
+    width: 21rem
+    padding: 1em
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    font-family: $ubu-r
+    transition: all 1.1s ease-in-out
+
+.outer-col-surf:hover
+    background: $grad-b
+
+.surf-img
+    text-align: center
+    border-radius: 50%
+
+// Toggle classes
+.rotate
+    transform: rotate(720deg)
+
+.opacity
+    opacity: 0.7
+
+.surf-img img
+    width: 40%
+    box-shadow: $box-full-med
+    border-radius: 50%
+    padding: 0.3em
+
+// Individual items
+.item-surf0
+    border-radius: 6px 0 0 6px
+    background: $grad-r
+    box-shadow: $box-full-dark
+
+.item-surf1
+    // width: 24rem
+    border-radius: 6px 6px 0 0
+    background: $grad-l
+    box-shadow: $box-full-med
+
+.item-surf2
+    border-radius: 6px 0 0 6px
+    background: $grad-t
+    box-shadow: $box-full-dark
+
+.item-surf3
+    // width: 24rem
+    box-shadow: $box-full-light
+    background: $grad-b
+    transition: all 1.1s ease-in-out
+
+.item-surf3:hover
+    background: $grad-r
+
+.item-surf4
+    box-shadow: $box-full-dark
+    background: $grad-r
+
+.item-surf5
+    // width: 24rem
+    box-shadow: $box-full-med
+    background: $grad-l
+
+// Shift Toggle-Classes
+.shift0, .shift1, .shift2, .shift3, .shift4, .shift5
+    transform: translateY(100%)
+    box-shadow: 3px 3px 7px $shadow-dk, -3px -3px 7px $shadow-light
+    z-index: 1500
+
+@media (min-width: 1008px)
+    .shift0
+        transform: translateX(100%)
+
+    .shift1
+        transform: translateY(100%)
+
+    .shift2
+        transform: translateX(-100%)
+
+    .shift3
+        transform: translateX(100%)
+
+    .shift4
+        transform: translateY(-100%)
+
+    .shift5
+        transform: translateX(-100%)
+
+@media (min-width: 1220px)
+    .outer-col-surf
+        height: 22.8rem
+        width: 24.5rem

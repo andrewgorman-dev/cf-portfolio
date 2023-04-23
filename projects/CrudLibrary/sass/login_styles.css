@@ -1,0 +1,124 @@
+@font-face {
+  font-family: ubuntu-b;
+  src: url("../ubuntu-font-family/Ubuntu-B.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-m;
+  src: url("../ubuntu-font-family/Ubuntu-M.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-l;
+  src: url("../ubuntu-font-family/Ubuntu-L.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-r;
+  src: url("../ubuntu-font-family/Ubuntu-R.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-c;
+  src: url("../ubuntu-font-family/Ubuntu-C.ttf");
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(10, 85, 47, 0.1)), to(#0b531d));
+  background-image: linear-gradient(to right, rgba(10, 85, 47, 0.1), #0b531d);
+}
+
+nav {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(10, 85, 47, 0.1)), to(#215085)) !important;
+  background-image: linear-gradient(to bottom, rgba(10, 85, 47, 0.1), #215085) !important;
+}
+
+.nav-link, .nav-brand-text {
+  color: #f5e6e6 !important;
+  text-shadow: 4px 4px 6px #5a5e69;
+}
+
+.nav-brand-text span {
+  margin-left: 0.2em;
+  letter-spacing: 0.2em;
+}
+
+.brand-wrapper:hover, .nav-link:hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(10, 24, 85, 0.5)), to(#310816)) !important;
+  background-image: linear-gradient(to left, rgba(10, 24, 85, 0.5), #310816) !important;
+  border-radius: 2px 3px 2px 3px;
+}
+
+.sign-up-container {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(10, 85, 47, 0.1)), to(#7cc7da));
+  background-image: linear-gradient(to left, rgba(10, 85, 47, 0.1), #7cc7da);
+  font-family: ubuntu-r;
+}
+
+.sign-up-container label {
+  color: #f9feff;
+}
+
+.sign-in-container {
+  font-family: ubuntu-l;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(10, 85, 47, 0.1)), to(#4d9eb3));
+  background-image: linear-gradient(to bottom, rgba(10, 85, 47, 0.1), #4d9eb3);
+}
+
+.login-deets {
+  font-family: ubuntu-l;
+}
+
+.userImage {
+  width: 7rem;
+  height: 7rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.hero {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(10, 40, 85, 0.2)), to(#58af8b));
+  background-image: linear-gradient(to right, rgba(10, 40, 85, 0.2), #58af8b);
+}
+
+.edit-user-container {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(10, 85, 47, 0.1)), to(#7cc7da));
+  background-image: linear-gradient(to top, rgba(10, 85, 47, 0.1), #7cc7da);
+}
+
+.updateImg {
+  width: 7rem;
+  height: 7rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.userTable tr {
+  text-align: center;
+}
+
+.userTable td {
+  text-align: left;
+  vertical-align: middle;
+}
+
+.edit-user-container .userImage {
+  width: 6rem;
+  height: auto;
+}
+
+.edit-user-container .user-table-img {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.delete-user-container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(10, 85, 47, 0.1)), to(#215085));
+  background-image: linear-gradient(to bottom, rgba(10, 85, 47, 0.1), #215085);
+}
+
+.deleteUserImage {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+/*# sourceMappingURL=login_styles.css.map */

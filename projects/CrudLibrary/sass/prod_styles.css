@@ -1,0 +1,171 @@
+@font-face {
+  font-family: ubuntu-b;
+  src: url("../ubuntu-font-family/Ubuntu-B.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-m;
+  src: url("../ubuntu-font-family/Ubuntu-M.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-l;
+  src: url("../ubuntu-font-family/Ubuntu-L.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-r;
+  src: url("../ubuntu-font-family/Ubuntu-R.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-c;
+  src: url("../ubuntu-font-family/Ubuntu-C.ttf");
+}
+
+body {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(10, 24, 85, 0.5)), to(#310816));
+  background-image: linear-gradient(to left, rgba(10, 24, 85, 0.5), #310816);
+}
+
+nav {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(10, 85, 47, 0.1)), to(#215085)) !important;
+  background-image: linear-gradient(to bottom, rgba(10, 85, 47, 0.1), #215085) !important;
+}
+
+.nav-link, .nav-brand-text {
+  color: #f5e6e6 !important;
+  text-shadow: 4px 4px 6px #5a5e69;
+}
+
+.nav-brand-text span {
+  margin-left: 0.2em;
+  letter-spacing: 0.2em;
+}
+
+.brand-wrapper:hover, .nav-link:hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(10, 24, 85, 0.5)), to(#310816)) !important;
+  background-image: linear-gradient(to left, rgba(10, 24, 85, 0.5), #310816) !important;
+  border-radius: 2px 3px 2px 3px;
+}
+
+.media-title {
+  font-family: ubuntu-m;
+  letter-spacing: 0.1em;
+  color: #f9feff;
+  text-shadow: 4px 4px 6px #1f2029;
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+  opacity: 0.94;
+}
+
+.tableContainer {
+  margin: auto;
+  width: 90%;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  border: solid 1px #e1f4f7 !important;
+  font-family: ubuntu-l;
+  font-size: 0.9em;
+}
+
+tr {
+  text-align: center;
+}
+
+.colTitles th {
+  text-align: center;
+  font-family: ubuntu-b;
+  border-right: dashed 1px #fff;
+  vertical-align: middle;
+}
+
+.descRow, .addrRow {
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.noDataMsg {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(10, 24, 85, 0.5)), to(#310816));
+  background-image: linear-gradient(to left, rgba(10, 24, 85, 0.5), #310816);
+  letter-spacing: 0.2em;
+}
+
+.showBtns {
+  font-family: ubuntu-m;
+}
+
+.contactPub {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(10, 85, 47, 0.1)), to(#7cc7da)) !important;
+  background-image: linear-gradient(to top, rgba(10, 85, 47, 0.1), #7cc7da) !important;
+}
+
+.prod-update-container .title {
+  font-family: ubuntu-m;
+  font-size: 1.5em;
+}
+
+.prod-update-container img {
+  height: 9rem;
+  width: 6rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.a_update-prod {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(10, 85, 47, 0.1)), to(#215085));
+  background-image: linear-gradient(to top, rgba(10, 85, 47, 0.1), #215085);
+}
+
+.delete-container {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(10, 24, 85, 0.5)), to(#310816));
+  background-image: linear-gradient(to left, rgba(10, 24, 85, 0.5), #310816);
+  font-family: ubuntu-l;
+}
+
+.delete-container img {
+  height: 9rem;
+  width: 6rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.deleted-container {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(10, 40, 85, 0.2)), to(#58af8b));
+  background-image: linear-gradient(to right, rgba(10, 40, 85, 0.2), #58af8b);
+}
+
+.dispCasrd {
+  opacity: 0.92;
+  font-family: ubuntu-l;
+  background-color: rgba(243, 219, 248, 0.92);
+}
+
+.cardImg {
+  vertical-align: middle;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  height: 5rem;
+  background-color: #0330f880;
+  opacity: 0.92;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=prod_styles.css.map */

@@ -1,0 +1,69 @@
+// Import partials
+@import 'partials/fonts'
+@import 'partials/colors'
+@import 'partials/reset'
+@import 'partials/hero-footer'
+@import 'partials/burger'
+
+/* NAV STYLES */
+@import 'partials/nav'
+
+// Body
+body
+    background-image: $grad-b
+
+// Main Titles
+.title
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+.left-title
+    text-align: center
+
+.left-title h1
+    padding-top: 0.6em
+    font-family: $font-m
+    text-shadow: 3px 2px 4px $shadow-md, -2px -3px 4px $shadow-light
+    letter-spacing: 0.1em
+    color: text-dk
+
+.left-title p
+    display: none
+    font-size: 0.6em
+
+.right-title .burgerBtn
+    margin: 0 auto 1em auto
+    padding: 0.2em
+    width: 5.8em
+    display: flex
+    flex-direction: column
+    align-items: center
+    border: solid 2px #c4bfbf
+    border-radius: 12px
+    box-shadow: 2px 3px 5px $shadow-dk, -2px -2px 2px $shadow-light
+    font-family: $font-c
+
+// Bootstrap Grid
+@import 'partials/cards'
+
+// Footer
+// in hero partial
+
+// Media Queries
+@import 'partials/mq-med'
+@import 'partials/mq-lg'
+@import 'partials/mq-xl'
+
+// About (Page filler, no serious styling applied for CR4)
+.about-main
+    display: flex
+
+.about-main img
+    height: 20em
+    width: 100%
+
+.about-text
+    padding: 0.5em
+    font-family: $font-c
